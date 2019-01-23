@@ -221,6 +221,7 @@ public class PropertiesServiceImpl implements PropertiesService {
                 propertiesMapper.insertSelective(p);
             }else {
                 p.setId(ps.get(0).getId());
+                p.setEnable(ps.get(0).getEnable());
                 propertiesMapper.updateByPrimaryKeySelective(p);
             }
         });
