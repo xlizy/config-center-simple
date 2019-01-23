@@ -1,0 +1,21 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>快照管理</title>
+
+    <script th:include="common/web :: common" th:inline="javascript"></script>
+    <head th:include="common/ext6css :: base"></head>
+    <head th:include="common/ext6js :: base"></head>
+
+</head>
+
+<body>
+<th:block th:each="e,index:${session.CP_PERMISSION}">
+    <div th:if="${e eq 'cc:CC_configList:clearDataCache'}" th:attr="id=${ e eq 'cc:CC_configList:clearDataCache' ? 'CC_configList@clearDataCache':'' },style='display: none;'"/>
+    <div th:if="${e eq 'cc:CC_configList:clearSessionCache'}" th:attr="id=${ e eq 'cc:CC_configList:clearSessionCache' ? 'CC_configList@clearSessionCache':'' },style='display: none;'"/>
+</th:block>
+
+<script th:attr="src=${CP_CTXPATH}+'/js/snapshot/SnapshotManager'+${CP_SUFFIX}+'.js?t='+${CP_CURRENTDATETIME}"></script>
+
+</body>
+</html>

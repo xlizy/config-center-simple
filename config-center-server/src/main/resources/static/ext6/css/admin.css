@@ -1,0 +1,90 @@
+
+.msgp-download {
+	background: url('../images/btn/msgp-download.png') no-repeat !important;
+}
+.msgp-upload {
+	background: url('../images/btn/msgp-upload.png') no-repeat !important;
+}
+.msgp-delete {
+	background: url('../images/btn/msgp-delete.png') no-repeat !important;
+}
+.msgp-clear {
+	background: url('../images/btn/msgp-clear.png') no-repeat !important;
+}
+.msgp-save {
+	background: url('../images/btn/msgp-save.png') no-repeat !important;
+}
+.msgp-email {
+	background: url('../images/btn/msgp-email.png') no-repeat !important;
+}
+.msgp-sms {
+	background: url('../images/btn/msgp-sms.png') no-repeat !important;
+}
+.msgp-wechat {
+	background: url('../images/btn/msgp-wechat.png') no-repeat !important;
+}
+.msgp-reset {
+	background: url('../images/btn/msgp-reset.png') no-repeat !important;
+}
+.msgp-edit {
+	background: url('../images/btn/msgp-edit.png') no-repeat !important;
+}
+.msgp-add {
+	background: url('../images/btn/msgp-add.png') no-repeat !important;
+}
+.msgp-cancel {
+	background: url('../images/btn/msgp-cancel.png') no-repeat !important;
+}
+.msgp-search {
+	background: url('../images/btn/msgp-search.png') no-repeat !important;
+}
+
+.msgp-del2 {
+	background: url('../images/btn/msgp-del2.png') no-repeat 3px 2px !important;
+}
+
+.msgp-cancel-issue {
+	background: url('../images/btn/msgp-cancel-issue.png') no-repeat 3px 2px !important;
+}
+
+.msgp-issue {
+	background: url('../images/btn/msgp-issue.png') no-repeat 3px 2px !important;
+}
+
+.msgp-top {
+	background: url('../images/btn/msgp-top.png') no-repeat 3px 2px !important;
+}
+
+.msgp-cancel-top {
+	background: url('../images/btn/msgp-cancel-top.png') no-repeat 3px 2px !important;
+}
+
+.msgp-order {
+	background: url('../images/btn/msgp-order.png') no-repeat 3px 2px !important;
+}
+.msgp-add2 {
+	background: url('../images/btn/msgp-add2.png') no-repeat 3px 2px !important;
+}
+
+.msgp-binding {
+	background: url('../images/btn/msgp-binding.png') no-repeat 0px 0px !important;
+}
+
+.msgp-snapshot {
+	background: url('../images/btn/msgp-snapshot.png') no-repeat 0px 0px !important;
+}
+
+.grid_row_wechat_ico {
+	height: 16px; width: 16px; background: url('../images/btn/msgp-wechat.png');
+	float: left;
+}
+
+.grid_row_sms_ico {
+	height: 16px; width: 16px; background: url('../images/btn/msgp-sms.png');
+	float: left;
+}
+
+.grid_row_email_ico {
+	height: 16px; width: 16px; background: url('../images/btn/msgp-email.png');
+	float: left;
+}

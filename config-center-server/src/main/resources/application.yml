@@ -1,0 +1,17 @@
+#tomcat容器配置
+server:
+  port: 30101 #容器端口号
+
+#日志配置
+logging:
+  level:
+    com:
+      xlizy:
+        middleware:
+          cc:
+            client: info
+            server:
+              mapper: info
+    path: /Users/xlizy/temp/logs/
+#  path: /root/xlizy/logs/
+  config: classpath:logback-spring.xml

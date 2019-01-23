@@ -1,0 +1,17 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>客户端监控</title>
+
+    <script th:include="common/web :: common" th:inline="javascript"></script>
+    <head th:include="common/ext6css :: base"></head>
+    <head th:include="common/ext6js :: base"></head>
+
+</head>
+
+<body>
+
+<script th:attr="src=${CP_CTXPATH}+'/js/client/ClientManager'+${CP_SUFFIX}+'.js?t='+${CP_CURRENTDATETIME}"></script>
+
+</body>
+</html>

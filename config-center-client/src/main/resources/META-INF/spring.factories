@@ -1,0 +1,1 @@
+org.springframework.context.ApplicationContextInitializer=com.xlizy.middleware.cc.client.spring.initializer.ConfigurationApplicationContextInitializer

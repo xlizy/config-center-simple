@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xsd:schema xmlns="http://www.xlizy.com/schema/configcenter"
+            xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+            targetNamespace="http://www.xlizy.com/schema/configcenter"
+            elementFormDefault="qualified"
+            attributeFormDefault="unqualified">
+
+    <xsd:annotation>
+        <xsd:documentation><![CDATA[ Namespace support for Configuration Center. ]]></xsd:documentation>
+    </xsd:annotation>
+
+    <xsd:element name="config">
+        <xsd:annotation>
+            <xsd:documentation>
+                <![CDATA[ Configuration Center configuration section to integrate with Spring.]]>
+            </xsd:documentation>
+        </xsd:annotation>
+    </xsd:element>
+</xsd:schema>
