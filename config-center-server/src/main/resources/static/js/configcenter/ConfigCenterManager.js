@@ -906,7 +906,6 @@ Ext.onReady(function () {
                     },{
                         name: 'value',
                         maxLength: 1000,
-                        allowBlank: false,
                         enforceMaxLength: true,
                         fieldLabel: '配置value',
                     },{

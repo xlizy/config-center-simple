@@ -195,6 +195,20 @@ public class ClientHelper {
             logger.warn("spring容器还没初始化完,此次接收到的配置不予处理");
             return;
         }
+        logger.debug("开始刷新spring上线文中的SpringValue的值(置空未启用的属性)");
+        for (String o : ConfigCenter.getNeedSetNullProp()) {
+            SpringValueRegistry springValueRegistry = SpringInjector.getInstance(SpringValueRegistry.class);
+            Collection<SpringValue> targetValues = springValueRegistry.get(o);
+            for (SpringValue val : targetValues) {
+                try {
+                    val.update(null);
+                } catch (IllegalAccessException e) {
+                    e.printStackTrace();
+                } catch (InvocationTargetException e) {
+                    e.printStackTrace();
+                }
+            }
+        }
         logger.debug("开始刷新spring上线文中的SpringValue的值");
         for (Object o : ConfigCenter.getProperties().keySet()) {
             SpringValueRegistry springValueRegistry = SpringInjector.getInstance(SpringValueRegistry.class);
